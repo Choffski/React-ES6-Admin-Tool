@@ -62,6 +62,7 @@ class Projects extends Component {
 
     getFetch('getUsers', data => {
       this.setState({users: data})
+
     })
 
   }
